@@ -1,5 +1,5 @@
 # Python Fundamentals LiveLessons, 2/e
-Source code and Jupyter Notebooks files for my "Python Fundamentals LiveLessons, 2/e" videos, which are now under development (2024)
+Source code and Jupyter Notebooks files for my "Python Fundamentals LiveLessons, 2/e" videos, which are now under development (2026)
 
 I'll keep this repository up-to-date as the new/updated content is created. 
 
