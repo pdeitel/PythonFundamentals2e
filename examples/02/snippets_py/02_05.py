@@ -1,6 +1,7 @@
-# Section 2.5 snippets
+## 2.5 Triple-Quoted Strings
 
-# Including Quotes in Strings
+### Including Quotes in Strings
+
 print('Display "hi" in quotes')
 
 print('Display 'hi' in quotes')
@@ -13,7 +14,8 @@ print("Display \"hi\" in quotes")
 
 print("""Display "hi" and 'bye' in quotes""")
 
-# Multiline Strings
+### Multiline Strings
+
 triple_quoted_string = """This is a triple-quoted
 string that spans two lines"""
 
@@ -22,7 +24,7 @@ print(triple_quoted_string)
 triple_quoted_string
 
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

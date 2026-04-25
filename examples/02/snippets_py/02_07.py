@@ -1,4 +1,4 @@
-# Section 2.7 snippets
+## 2.7 Decision Making: The if Statement and Comparison Operators
 
 7 > 4
 
@@ -6,8 +6,31 @@
 
 7 > = 4
 
-# Chaining Comparisons
+### Making Decisions with the if Statement: Introducing Scripts
+
+### Comments
+
+### Docstrings
+
+### Blank Lines
+
+### Splitting a Lengthy Statement Across Lines
+
+### Reading Integer Values from the User
+
+### if Statements
+
+### Suite Indentation
+
+### Confusing == and =
+
+### Chaining Comparisons
+
 x = 3
+
+1 <= x <= 5
+
+x = 5
 
 1 <= x <= 5
 
@@ -15,8 +38,10 @@ x = 10
 
 1 <= x <= 5
 
+### Precedence of the Operators We've Presented So Far
+
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

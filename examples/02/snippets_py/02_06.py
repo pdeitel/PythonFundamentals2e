@@ -1,9 +1,4 @@
-# Section 2.6 snippets
-name = input("What's your name? ")
-
-name
-
-print(name)
+## 2.6 Getting Input from the User
 
 name = input("What's your name? ")
 
@@ -11,14 +6,22 @@ name
 
 print(name)
 
-# Function input Always Returns a String
+name = input("What's your name? ")
+
+name
+
+print(name)
+
+### Function input Always Returns a String
+
 value1 = input('Enter first number: ')
 
 value2 = input('Enter second number: ')
 
 value1 + value2
 
-# Getting an Integer from the User
+### Getting an Integer from the User
+
 value = input('Enter an integer: ')
 
 value = int(value)
@@ -26,7 +29,6 @@ value = int(value)
 value
 
 another_value = int(input('Enter another integer: '))
-
 
 another_value
 
@@ -36,8 +38,10 @@ bad_value = int(input('Enter another integer: '))
 
 int(10.5)
 
+float('10.5')
+
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

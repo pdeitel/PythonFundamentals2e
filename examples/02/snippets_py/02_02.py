@@ -1,27 +1,33 @@
-# Section 2.2 snippets
+## 2.2 Variables and Assignment Statements
+
 45 + 72
 
 x = 7
 
 y = 3
 
-# Adding Variable Values and Viewing the Result
+### Adding Variable Values and Viewing the Result
+
 x + y
 
-# Calculations in Assignment Statements
+### Calculations in Assignment Statements
+
 total = x + y
 
 total
 
-# Python Style
+### Python Style
 
-# Types
+### Variable Names
+
+### Types
+
 type(x)
 
 type(10.5)
 
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

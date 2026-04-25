@@ -1,11 +1,11 @@
-# Fig. 2.2: fig02_02.py
+# fig02_02.py
 """Find the minimum of three values."""
 
 number1 = int(input('Enter first integer: '))
 number2 = int(input('Enter second integer: '))
 number3 = int(input('Enter third integer: '))
 
-minimum = number1  
+minimum = number1
 
 if number2 < minimum:
     minimum = number2
@@ -16,7 +16,7 @@ if number3 < minimum:
 print('Minimum value is', minimum)
 
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

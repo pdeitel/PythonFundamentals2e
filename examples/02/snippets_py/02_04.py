@@ -1,25 +1,30 @@
-# Section 2.4 snippets
+## 2.4 Function print and an Intro to Single- and Double-Quoted Strings
+
 print('Welcome to Python!')
 
 print("Welcome to Python!")
 
-# Printing a Comma-Separated List of Items
+### Printing a Comma-Separated List of Items
+
 print('Welcome', 'to', 'Python!')
 
-# Printing Many Lines of Text with One Statement
+### Printing Many Lines of Text with One Statement
+
 print('Welcome\nto\n\nPython!')
 
-# Other Escape Sequences
+### Other Escape Sequences
 
-# Ignoring a Line Break in a Long String
+### Ignoring a Line Break in a Long String
+
 print('this is a longer string, so we \
-split it over two lines')
+    split it over two lines')
 
-# Printing the Value of an Expression
+### Printing the Value of an Expression
+
 print('Sum is', 7 + 3)
 
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

@@ -1,0 +1,38 @@
+## 4.17 Objects-Natural Case Study: Dates and Times
+
+### Checkpoint 1 Snippets
+
+### Checkpoint 2 Snippets
+
+from datetime import datetime
+
+birth = datetime.fromisoformat(f'1969-07-20 22:56')
+
+print(f'Birth date: {birth:%x}')
+
+print(f'Birth time: {birth:%X}')
+
+### Checkpoint 3 Snippets
+
+future_date = datetime.fromisoformat('2030-01-01')
+
+today = datetime.now()
+
+difference = future_date - today
+
+difference.days
+
+##########################################################################
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
+# Pearson Education, Inc. All Rights Reserved.                           #
+#                                                                        #
+# DISCLAIMER: The authors and publisher of this book have used their     #
+# best efforts in preparing the book. These efforts include the          #
+# development, research, and testing of the theories and programs        #
+# to determine their effectiveness. The authors and publisher make       #
+# no warranty of any kind, expressed or implied, with regard to these    #
+# programs or to the documentation contained in these books. The authors #
+# and publisher shall not be liable in any event for incidental or       #
+# consequential damages in connection with, or arising out of, the       #
+# furnishing, performance, or use of these programs.                     #
+##########################################################################

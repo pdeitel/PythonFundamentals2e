@@ -1,15 +1,19 @@
-# Section 2.3 snippets
+## 2.3 Arithmetic
 
+### Multiplication (`*`)
 
-# Multiplication (*)
 7 * 4
 
-# Exponentiation (**)
+### Exponentiation (`**`)
+
 2 ** 10
 
-9 ** (1 / 2)
+9 ** (1 / 2)  # or 9 ** 0.5
 
-# True Division (/) vs. Floor Division (//)
+9 ** 0.5
+
+### True Division (`/`) vs. Floor Division (`//`)
+
 7 / 4
 
 7 // 4
@@ -22,34 +26,36 @@
 
 -13 // 4
 
-# Exceptions and Tracebacks
+### Exceptions and Tracebacks
+
 123 / 0
 
 z + 7
 
-# Remainder Operator
+### Remainder Operator
+
 17 % 5
 
 7.5 % 3.5
 
-# Straight-Line Form
+### Straight-Line Form
 
-# Grouping Expressions with Parentheses
+### Grouping Expressions with Parentheses
+
 10 * (5 + 3)
 
 10 * 5 + 3
 
-# Operator Precedence Rules
+### Operator Precedence Rules
 
-# Operator Grouping
+### Operator Grouping
 
-# Redundant Parentheses
+### Redundant Parentheses
 
-# Operand Types
-
+### Operand Types
 
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #

@@ -1,4 +1,4 @@
-# Section 2.8 snippets
+## 2.8 Objects and Dynamic Typing
 
 type(7)
 
@@ -6,7 +6,8 @@ type(4.1)
 
 type('dog')
 
-# Variables Refer to Objects
+### Variables Refer to Objects
+
 x = 7
 
 x + 10
@@ -17,7 +18,8 @@ x = x + 10
 
 x
 
-# Dynamic Typing
+### Dynamic Typing
+
 type(x)
 
 x = 4.1
@@ -28,11 +30,10 @@ x = 'dog'
 
 type(x)
 
-# Garbage Collection
-
+### Garbage Collection
 
 ##########################################################################
-# (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
 # Pearson Education, Inc. All Rights Reserved.                           #
 #                                                                        #
 # DISCLAIMER: The authors and publisher of this book have used their     #
