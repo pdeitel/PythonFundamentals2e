@@ -13,7 +13,7 @@ with (open('accounts.txt', mode='r', encoding='utf-8') as accounts,
 
 import os
 
-os.replace('temp_file.txt', 'accounts.txt')
+os.replace('temp.txt', 'accounts.txt')
 
 ##########################################################################
 # (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #

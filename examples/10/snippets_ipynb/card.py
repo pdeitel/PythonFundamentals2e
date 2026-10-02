@@ -1,0 +1,54 @@
+# card.py
+"""Card class that represents a playing card and its image file name."""
+
+class Card:
+    FACES: tuple[str, ...] = ('Ace', '2', '3', '4', '5', '6', '7', '8',
+                                '9', '10', 'Jack', 'Queen', 'King')
+    SUITS: tuple[str, ...] = ('Hearts', 'Diamonds', 'Clubs', 'Spades')
+
+    def __init__(self, face: str, suit: str) -> None:
+        """Initialize a Card with a face and suit."""
+        self._face = face
+        self._suit = suit
+
+    @property
+    def face(self) -> str:
+        """Return the Card's self._face value."""
+        return self._face
+
+    @property
+    def suit(self) -> str:
+        """Return the Card's self._suit value."""
+        return self._suit
+
+    @property
+    def image_name(self) -> str:
+        """Return the Card's image file name."""
+        return str(self).replace(' ', '_') + '.png'
+
+    def __repr__(self) -> str:
+        """Return string representation for repr()."""
+        return f"Card(face='{self.face}', suit='{self.suit}')"
+
+    def __str__(self) -> str:
+        """Return string representation for str()."""
+        return f'{self.face} of {self.suit}'
+
+    def __format__(self, format_spec: str) -> str:
+        """Return formatted string representation."""
+        return f'{str(self):{format_spec}}'
+
+##########################################################################
+# (C) Copyright 1992-2026 by Deitel & Associates, Inc. and               #
+# Pearson Education, Inc. All Rights Reserved.                           #
+#                                                                        #
+# DISCLAIMER: The authors and publisher of this book have used their     #
+# best efforts in preparing the book. These efforts include the          #
+# development, research, and testing of the theories and programs        #
+# to determine their effectiveness. The authors and publisher make       #
+# no warranty of any kind, expressed or implied, with regard to these    #
+# programs or to the documentation contained in these books. The authors #
+# and publisher shall not be liable in any event for incidental or       #
+# consequential damages in connection with, or arising out of, the       #
+# furnishing, performance, or use of these programs.                     #
+##########################################################################
