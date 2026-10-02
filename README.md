@@ -7,7 +7,7 @@ I'll keep this repository up-to-date as the new/updated content is created.
 
 If you have any questions, open an issue in the Issues tab or email us: deitel at deitel dot com.
 
-©️ Copyright 1992-2024 by Deitel & Associates, Inc. and Pearson Education, Inc. All Rights Reserved. 
+©️ Copyright 1992-2026 by Deitel & Associates, Inc. and Pearson Education, Inc. All Rights Reserved. 
 
 # Setup for Executing the Examples
 Install the Anaconda Python Distribution at https://www.anaconda.com/download#downloads
