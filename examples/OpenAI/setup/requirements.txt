@@ -1,0 +1,37 @@
+# Core OpenAI packages
+openai>=1.0
+openai-agents[litellm]
+
+# Agent tools and MCP
+mcp
+yfinance
+playwright
+pydantic
+
+# Data science, visualization and analysis support
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+plotly
+openpyxl
+pillow
+wordcloud
+graphviz
+requests
+beautifulsoup4
+lxml
+spacy
+nltk
+
+# Audio playback (01-02-speech)
+playsound3
+sounddevice
+
+# Development and testing
+jupyterlab>=4.0
+ipykernel
+pytest
