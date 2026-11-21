@@ -7,13 +7,13 @@ I'll keep this repository up-to-date as the new/updated content is created.
 
 If you have any questions, open an issue in the Issues tab or email us: deitel at deitel dot com.
 
-©️ Copyright 1992-2024 by Deitel & Associates, Inc. and Pearson Education, Inc. All Rights Reserved. 
+©️ Copyright 1992-2026 by Deitel & Associates, Inc. and Pearson Education, Inc. All Rights Reserved. 
 
 # Setup for Executing the Examples
 Install the Anaconda Python Distribution at https://www.anaconda.com/download#downloads
 
 # Our Books on Which These Examples Are Based
-The video content is based on the following books&mdash;we're working on the second editions of these now (2024):
+The video content is based on the following books&mdash;we're working on the second editions of these now:
 * Our professional book: <a href=https://amzn.to/2Kd8dQk target="_blank">Python for Programmers</a>
 * Our textbook <a href=https://amzn.to/2KfCptN target="_blank">Intro to Python for Computer Science and Data Science: Learning to Program with AI, Big Data and the Cloud.</a> 
     
